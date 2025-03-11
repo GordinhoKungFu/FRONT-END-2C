@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carnaval</title>
+    <link rel="stylesheet" href="mateus.css">
+
+</head>
+
+<body>
+
+    <div class="navbar">
+        <a href="#sobre">Sobre o Carnaval</a>
+        <a href="#desfiles">Desfiles de Carnaval</a>
+        <a href="#blocos">Blocos de Carnaval</a>
+        <a href="#imagens">Imagens de Desfiles</a>
+        <a href="#form">Contato</a>
+    </div>
+
+    <div class="header">
+        <h1>Carnaval</h1>
+        <p>Uma festa cheia de cores, música e alegria!</p>
+
+    </div>
+
+    <div class="container">
+        <section id="sobre">
+            <h2>Sobre o Carnaval</h2>
+            <p>O carnaval é uma festa popular que ocorre antes da Quaresma, sendo um período de festas que se iniciam no
+                sábado e só terminam na terça-feira de cinzas, que antecede a quarta-feira de cinzas e o início da
+                Quaresma.</p>
+            <p>O carnaval é famoso por seus desfiles de escolas de samba, como o do Rio de Janeiro, e também por festas
+                de rua, como os blocos de carnaval em Salvador.</p>
+            <img class="img1"
+                src="https://s1.static.brasilescola.uol.com.br/be/conteudo/images/escola-de-samba-carioca.jpg">
+        </section>
+
+        <section id="desfiles">
+            <h2>Desfiles de Carnaval</h2>
+            <p>Os desfiles de carnaval são um dos pontos altos da festa. As escolas de samba se preparam durante o ano
+                todo para apresentar um espetáculo incrível, com muita música, dança e fantasia.</p>
+            <img class="img2"
+                src="https://static.mundoeducacao.uol.com.br/mundoeducacao/2023/02/as-escolas-de-samba-do-rio-de-janeiro-e-de-sao-paulo-sao-conhecidas-por-realizar-grandes-espetaculos-durante-os-desfiles-no-carnaval-1.jpg">
+            <p>Os desfiles costumam ser divididos em várias categorias, com diferentes escolas competindo em cada uma
+                delas.</p>
+        </section>
+
+        <section id="blocos">
+            <h2>Blocos de Carnaval</h2>
+            <p>Além dos desfiles das escolas de samba, o carnaval também é marcado pelos blocos de carnaval, que são
+                grupos de pessoas que se reúnem para celebrar a festa nas ruas das cidades.</p>
+            <img class="img3"
+                src="https://conteudo.imguol.com.br/c/noticias/d4/2023/01/31/bloco-de-rua-em-pinheiros-no-carnaval-de-2019-1675193183480_v2_900x506.jpg">
+            <p>Os blocos de carnaval são conhecidos pela animação, pela música e pela diversidade de pessoas que
+                participam.</p>
+        </section>
+    </div>
+
+
+
+    <div class="carousel" id="imagens">
+        <h1> Fotos de alguns desfiles: </h1>
+
+        <input class="carousel-open" type="radio" id="carousel-1" name="carousel" aria-hidden="true" hidden=""
+            checked="checked">
+        <div class="carousel__items">
+            <div class="carousel__item">
+                <img src="https://www.jornaldocomercio.com/_midias/jpg/2017/03/06/desfile_campeas_010-1484775.jpg"
+                    class="carousel__img">
+            </div>
+            <div class="carousel__item">
+                <img src="https://setor1.band.uol.com.br/wp-content/uploads/2020/02/vira___.jpg" class="carousel__img">
+            </div>
+            <div class="carousel__item">
+                <img src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2024/02/mocidade-independente-de-padre-miguel-carnaval-2024-e1707824726244.jpg?w=732&h=412&crop=1"
+                    class="carousel__img">
+            </div>
+            <div class="carousel__item">
+                <img src="https://t2.tudocdn.net/701198?w=824&h=494" class="carousel__img">
+            </div>
+            <div class="carousel__item">
+                <img src="https://cdn.folhape.com.br/img/pc/1100/1/dn_arquivo/2020/07/40288892363-57c7c32a38-h.jpg"
+                    class="carousel__img">
+            </div>
+        </div>
+    </div>
+    </div>
+    <h2 id="form" class="form">Formulário para se contatar comigo.</h2>
+    <form action="#" method="post" class="form-contato">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea><br><br>
+
+        <input type="submit" value="Enviar">
+    </form>
+
+
+
+    </div>
+    <div class="footer">
+        <p> &copy; 2024 Matheus 2°C. Todos os direitos reservados.</p>
+    </div>
+</body>
+
+</html>
